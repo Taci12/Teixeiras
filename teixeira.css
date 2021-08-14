@@ -1,0 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+.welcome-section {
+    height: 96vh;
+    background-color: aqua;
+}
+.story-div {
+    height: 40%;
+    width: 35%;
+    background-color: blueviolet;
+}
+.story-div h1 {
+    font-size: 2rem;
+}
+.gallery-div {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}

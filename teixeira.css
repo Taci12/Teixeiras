@@ -5,6 +5,10 @@ html, body {
 .welcome-section {
     height: 96vh;
     background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 .story-div {
     height: 40%;
@@ -14,10 +18,7 @@ html, body {
 .story-div h1 {
     font-size: 2rem;
 }
-.gallery-div {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: flex-start;
+.story-div img {
+    max-width: 50%;
+    max-height: 50%;
 }
